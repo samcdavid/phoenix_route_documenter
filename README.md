@@ -37,7 +37,7 @@ defmodule YourApp.RoutesController do
   alias PhoenixRouteDocumenter.Endpoints
 
   def index(conn, _params) do
-    endpoints = Endpoints.for(Router)
+    endpoints = Endpoints.listing(Router)
 
     conn
     |> json(endpoints)
