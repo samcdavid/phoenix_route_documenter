@@ -1,0 +1,2 @@
+defmodule PhoenixRouteDocumenter do
+end
